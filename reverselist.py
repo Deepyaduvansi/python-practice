@@ -26,5 +26,20 @@ def SwapList(newList):
     return newList
 newList = [90,60,1020,20]
 print(SwapList(newList))
+
+#using pop append insert method
+def SWAPLIST(NEWLIST):
+    first = NEWLIST.pop(0)
+    second = NEWLIST.pop(-1)
+    NEWLIST.insert(0,second)
+    NEWLIST.append(first)
+    return NEWLIST
+
+list = [5,6,7,9]
+
+
+print(SWAPLIST(list))
+    
+    
     
     
